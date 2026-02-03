@@ -59,11 +59,11 @@ To set up the Monthly Planner on your local machine:
    ```bash
    git clone https://github.com/yourusername/MonthlyPlanner.git
    ```
-3. Navigate to the project directory:
-  ```bash
-  cd MonthlyPlanner
-  ```
-4.Open index.html in your preferred web browser to start using the planner.
+2. Navigate to the project directory:
+    ```bash
+    cd MonthlyPlanner
+    ```
+3. Open index.html in your preferred web browser to start using the planner.
 
 ## Contributing
 If you'd like to contribute to the project, please fork the repository and create a pull request with your proposed changes.
