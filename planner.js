@@ -93,7 +93,7 @@ class MonthlyPlanner {
     this._days = [];
     this._movies = [];
     this._books = [];
-    this._placess = [];
+    this._places = [];
     this._goals = [];
     Storage.clearAll();
   }
@@ -434,17 +434,14 @@ class App {
     if (type === "book") {
       const book = new Book(name.value);
       this._tracker.addBook(book);
-      console.log("book");
     }
     if (type === "place") {
       const place = new Place(name.value);
       this._tracker.addPlace(place);
-      console.log("place");
     }
     if (type === "goal") {
       const goal = new Goal(name.value);
       this._tracker.addGoal(goal);
-      console.log("goal");
     }
 
     name.value = "";
@@ -508,10 +505,8 @@ const app = new App();
 
 // ADD CHANGECOLOR() CLICK FUNCTION IN THE COLOR PLATTE ICON//
 document.querySelector(".d").addEventListener("click", function (e) {
-  console.log(e);
   e.preventDefault();
   document.getElementById("colorID").click();
-  console.log(document.getElementById("colorID"));
 });
 
 document.querySelector(".m").addEventListener("click", function (e) {
